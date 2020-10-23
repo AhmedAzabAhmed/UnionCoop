@@ -55,11 +55,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func reloadData(_ sender: Any) {
-        
+        startTimer()
+        showIndicator()
         let trendingReposPresenterRef : TrendingReposPresenter = TrendingReposPresenter(trendingRepoviewRef: self)
         trendingReposPresenterRef.fetchRepos()
-        stopTimer()
-        hideIndicator()
     }
 }
 
