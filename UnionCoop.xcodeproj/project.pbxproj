@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AE307A8D270A74065D9F3F1 /* Pods_UnionCoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA1F0119445C601230540F9 /* Pods_UnionCoop.framework */; };
+		A3011EE72541E56B00793CE3 /* TrendingReposTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3011EE52541E56B00793CE3 /* TrendingReposTVCell.swift */; };
+		A3011EE82541E56B00793CE3 /* TrendingReposTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3011EE62541E56B00793CE3 /* TrendingReposTVCell.xib */; };
+		A35C5355254082CF00DFEBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C5354254082CF00DFEBF5 /* AppDelegate.swift */; };
+		A35C5357254082CF00DFEBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C5356254082CF00DFEBF5 /* SceneDelegate.swift */; };
+		A35C5359254082CF00DFEBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C5358254082CF00DFEBF5 /* ViewController.swift */; };
+		A35C535C254082CF00DFEBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35C535A254082CF00DFEBF5 /* Main.storyboard */; };
+		A35C535E254082D100DFEBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35C535D254082D100DFEBF5 /* Assets.xcassets */; };
+		A35C5361254082D100DFEBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35C535F254082D100DFEBF5 /* LaunchScreen.storyboard */; };
+		A35C537025408D3900DFEBF5 /* IBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C536F25408D3900DFEBF5 /* IBase.swift */; };
+		A35C53732540923200DFEBF5 /* TrendingRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C53722540923200DFEBF5 /* TrendingRepos.swift */; };
+		A35C53772540943600DFEBF5 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C53762540943600DFEBF5 /* extension.swift */; };
+		A35C5379254095A800DFEBF5 /* TrendingReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C5378254095A800DFEBF5 /* TrendingReposPresenter.swift */; };
+		A35C537B2540961700DFEBF5 /* TrendingReposModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C537A2540961700DFEBF5 /* TrendingReposModel.swift */; };
+		A3707ED72540B2F400FB1D27 /* TrendingReposEntityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3707ED62540B2F400FB1D27 /* TrendingReposEntityElement.swift */; };
+		A3C1D3A52540E3CA0012F099 /* DictionaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1D3A42540E3CA0012F099 /* DictionaryEncoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F6FC98AD24F047C17E238C /* Pods-UnionCoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionCoop.debug.xcconfig"; path = "Target Support Files/Pods-UnionCoop/Pods-UnionCoop.debug.xcconfig"; sourceTree = "<group>"; };
+		A3011EE52541E56B00793CE3 /* TrendingReposTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposTVCell.swift; sourceTree = "<group>"; };
+		A3011EE62541E56B00793CE3 /* TrendingReposTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingReposTVCell.xib; sourceTree = "<group>"; };
+		A35C5351254082CF00DFEBF5 /* UnionCoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionCoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35C5354254082CF00DFEBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A35C5356254082CF00DFEBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A35C5358254082CF00DFEBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A35C535B254082CF00DFEBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A35C535D254082D100DFEBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A35C5360254082D100DFEBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A35C5362254082D100DFEBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35C536F25408D3900DFEBF5 /* IBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBase.swift; sourceTree = "<group>"; };
+		A35C53722540923200DFEBF5 /* TrendingRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepos.swift; sourceTree = "<group>"; };
+		A35C53762540943600DFEBF5 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		A35C5378254095A800DFEBF5 /* TrendingReposPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposPresenter.swift; sourceTree = "<group>"; };
+		A35C537A2540961700DFEBF5 /* TrendingReposModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposModel.swift; sourceTree = "<group>"; };
+		A3707ED62540B2F400FB1D27 /* TrendingReposEntityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposEntityElement.swift; sourceTree = "<group>"; };
+		A3C1D3A42540E3CA0012F099 /* DictionaryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryEncoder.swift; sourceTree = "<group>"; };
+		DCC7AB853107E3FE351C6281 /* Pods-UnionCoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionCoop.release.xcconfig"; path = "Target Support Files/Pods-UnionCoop/Pods-UnionCoop.release.xcconfig"; sourceTree = "<group>"; };
+		DDA1F0119445C601230540F9 /* Pods_UnionCoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionCoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A35C534E254082CF00DFEBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE307A8D270A74065D9F3F1 /* Pods_UnionCoop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A56AC63DBA9022B3877CEC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53F6FC98AD24F047C17E238C /* Pods-UnionCoop.debug.xcconfig */,
+				DCC7AB853107E3FE351C6281 /* Pods-UnionCoop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3011EE42541E52800793CE3 /* Trending repos cell */ = {
+			isa = PBXGroup;
+			children = (
+				A3011EE52541E56B00793CE3 /* TrendingReposTVCell.swift */,
+				A3011EE62541E56B00793CE3 /* TrendingReposTVCell.xib */,
+			);
+			path = "Trending repos cell";
+			sourceTree = "<group>";
+		};
+		A35C5348254082CF00DFEBF5 = {
+			isa = PBXGroup;
+			children = (
+				A35C5353254082CF00DFEBF5 /* UnionCoop */,
+				A35C5352254082CF00DFEBF5 /* Products */,
+				3A56AC63DBA9022B3877CEC9 /* Pods */,
+				E22646881A3A51A363F48E97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A35C5352254082CF00DFEBF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A35C5351254082CF00DFEBF5 /* UnionCoop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A35C5353254082CF00DFEBF5 /* UnionCoop */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1D3A32540E3AB0012F099 /* Dictionary Encoder */,
+				A35C536D25408C6B00DFEBF5 /* Contracts */,
+				A35C536B25408C4C00DFEBF5 /* Entity */,
+				A35C536A25408C3F00DFEBF5 /* Interactor */,
+				A35C536C25408C5600DFEBF5 /* Presenter */,
+				A35C536925408AFC00DFEBF5 /* ViewController */,
+				A35C536825408AC300DFEBF5 /* Stroy board */,
+				A35C5354254082CF00DFEBF5 /* AppDelegate.swift */,
+				A35C5356254082CF00DFEBF5 /* SceneDelegate.swift */,
+				A35C535D254082D100DFEBF5 /* Assets.xcassets */,
+				A35C535F254082D100DFEBF5 /* LaunchScreen.storyboard */,
+				A35C5362254082D100DFEBF5 /* Info.plist */,
+			);
+			path = UnionCoop;
+			sourceTree = "<group>";
+		};
+		A35C536825408AC300DFEBF5 /* Stroy board */ = {
+			isa = PBXGroup;
+			children = (
+				A35C535A254082CF00DFEBF5 /* Main.storyboard */,
+			);
+			path = "Stroy board";
+			sourceTree = "<group>";
+		};
+		A35C536925408AFC00DFEBF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3011EE42541E52800793CE3 /* Trending repos cell */,
+				A35C53752540938600DFEBF5 /* extension */,
+				A35C53742540937900DFEBF5 /* controller */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A35C536A25408C3F00DFEBF5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A35C537A2540961700DFEBF5 /* TrendingReposModel.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A35C536B25408C4C00DFEBF5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A3707ED62540B2F400FB1D27 /* TrendingReposEntityElement.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A35C536C25408C5600DFEBF5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A35C5378254095A800DFEBF5 /* TrendingReposPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A35C536D25408C6B00DFEBF5 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				A35C536E25408D1F00DFEBF5 /* Base */,
+				A35C5371254091F600DFEBF5 /* Github Trending Repo */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		A35C536E25408D1F00DFEBF5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A35C536F25408D3900DFEBF5 /* IBase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A35C5371254091F600DFEBF5 /* Github Trending Repo */ = {
+			isa = PBXGroup;
+			children = (
+				A35C53722540923200DFEBF5 /* TrendingRepos.swift */,
+			);
+			path = "Github Trending Repo";
+			sourceTree = "<group>";
+		};
+		A35C53742540937900DFEBF5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A35C5358254082CF00DFEBF5 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A35C53752540938600DFEBF5 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A35C53762540943600DFEBF5 /* extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		A3C1D3A32540E3AB0012F099 /* Dictionary Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1D3A42540E3CA0012F099 /* DictionaryEncoder.swift */,
+			);
+			path = "Dictionary Encoder";
+			sourceTree = "<group>";
+		};
+		E22646881A3A51A363F48E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA1F0119445C601230540F9 /* Pods_UnionCoop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A35C5350254082CF00DFEBF5 /* UnionCoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35C5365254082D100DFEBF5 /* Build configuration list for PBXNativeTarget "UnionCoop" */;
+			buildPhases = (
+				457BB4CC89D9D8CA63BDB015 /* [CP] Check Pods Manifest.lock */,
+				A35C534D254082CF00DFEBF5 /* Sources */,
+				A35C534E254082CF00DFEBF5 /* Frameworks */,
+				A35C534F254082CF00DFEBF5 /* Resources */,
+				FC6A29558E3AD76841972390 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnionCoop;
+			productName = UnionCoop;
+			productReference = A35C5351254082CF00DFEBF5 /* UnionCoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A35C5349254082CF00DFEBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = azab;
+				TargetAttributes = {
+					A35C5350254082CF00DFEBF5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A35C534C254082CF00DFEBF5 /* Build configuration list for PBXProject "UnionCoop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A35C5348254082CF00DFEBF5;
+			productRefGroup = A35C5352254082CF00DFEBF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A35C5350254082CF00DFEBF5 /* UnionCoop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A35C534F254082CF00DFEBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35C5361254082D100DFEBF5 /* LaunchScreen.storyboard in Resources */,
+				A35C535E254082D100DFEBF5 /* Assets.xcassets in Resources */,
+				A3011EE82541E56B00793CE3 /* TrendingReposTVCell.xib in Resources */,
+				A35C535C254082CF00DFEBF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457BB4CC89D9D8CA63BDB015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnionCoop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6A29558E3AD76841972390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnionCoop/Pods-UnionCoop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnionCoop/Pods-UnionCoop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnionCoop/Pods-UnionCoop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A35C534D254082CF00DFEBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C1D3A52540E3CA0012F099 /* DictionaryEncoder.swift in Sources */,
+				A35C537B2540961700DFEBF5 /* TrendingReposModel.swift in Sources */,
+				A35C5359254082CF00DFEBF5 /* ViewController.swift in Sources */,
+				A3707ED72540B2F400FB1D27 /* TrendingReposEntityElement.swift in Sources */,
+				A3011EE72541E56B00793CE3 /* TrendingReposTVCell.swift in Sources */,
+				A35C5355254082CF00DFEBF5 /* AppDelegate.swift in Sources */,
+				A35C5379254095A800DFEBF5 /* TrendingReposPresenter.swift in Sources */,
+				A35C537025408D3900DFEBF5 /* IBase.swift in Sources */,
+				A35C53772540943600DFEBF5 /* extension.swift in Sources */,
+				A35C53732540923200DFEBF5 /* TrendingRepos.swift in Sources */,
+				A35C5357254082CF00DFEBF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A35C535A254082CF00DFEBF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35C535B254082CF00DFEBF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A35C535F254082D100DFEBF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35C5360254082D100DFEBF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A35C5363254082D100DFEBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A35C5364254082D100DFEBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A35C5366254082D100DFEBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F6FC98AD24F047C17E238C /* Pods-UnionCoop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnionCoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = azab.UnionCoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A35C5367254082D100DFEBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC7AB853107E3FE351C6281 /* Pods-UnionCoop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnionCoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = azab.UnionCoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A35C534C254082CF00DFEBF5 /* Build configuration list for PBXProject "UnionCoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35C5363254082D100DFEBF5 /* Debug */,
+				A35C5364254082D100DFEBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35C5365254082D100DFEBF5 /* Build configuration list for PBXNativeTarget "UnionCoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35C5366254082D100DFEBF5 /* Debug */,
+				A35C5367254082D100DFEBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A35C5349254082CF00DFEBF5 /* Project object */;
+}
