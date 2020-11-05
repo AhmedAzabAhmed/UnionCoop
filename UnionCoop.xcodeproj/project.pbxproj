@@ -23,6 +23,10 @@
 		A35C537B2540961700DFEBF5 /* TrendingReposModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C537A2540961700DFEBF5 /* TrendingReposModel.swift */; };
 		A3707ED72540B2F400FB1D27 /* TrendingReposEntityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3707ED62540B2F400FB1D27 /* TrendingReposEntityElement.swift */; };
 		A3C1D3A52540E3CA0012F099 /* DictionaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1D3A42540E3CA0012F099 /* DictionaryEncoder.swift */; };
+		A3E244BA2551ACE90061B663 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E244B92551ACE90061B663 /* TargetType.swift */; };
+		A3E244BD2551B5820061B663 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E244BC2551B5820061B663 /* BaseResponse.swift */; };
+		A3E244C02551B84A0061B663 /* TrendingReposNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E244BF2551B84A0061B663 /* TrendingReposNetworking.swift */; };
+		A3E244C22551BAE90061B663 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E244C12551BAE90061B663 /* BaseAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		A35C537A2540961700DFEBF5 /* TrendingReposModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposModel.swift; sourceTree = "<group>"; };
 		A3707ED62540B2F400FB1D27 /* TrendingReposEntityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposEntityElement.swift; sourceTree = "<group>"; };
 		A3C1D3A42540E3CA0012F099 /* DictionaryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryEncoder.swift; sourceTree = "<group>"; };
+		A3E244B92551ACE90061B663 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		A3E244BC2551B5820061B663 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		A3E244BF2551B84A0061B663 /* TrendingReposNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingReposNetworking.swift; sourceTree = "<group>"; };
+		A3E244C12551BAE90061B663 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		DCC7AB853107E3FE351C6281 /* Pods-UnionCoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionCoop.release.xcconfig"; path = "Target Support Files/Pods-UnionCoop/Pods-UnionCoop.release.xcconfig"; sourceTree = "<group>"; };
 		DDA1F0119445C601230540F9 /* Pods_UnionCoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionCoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,6 +107,7 @@
 		A35C5353254082CF00DFEBF5 /* UnionCoop */ = {
 			isa = PBXGroup;
 			children = (
+				A3E244B82551AC8B0061B663 /* Networkinng Layer */,
 				A3C1D3A32540E3AB0012F099 /* Dictionary Encoder */,
 				A35C536D25408C6B00DFEBF5 /* Contracts */,
 				A35C536B25408C4C00DFEBF5 /* Entity */,
@@ -204,6 +213,33 @@
 				A3C1D3A42540E3CA0012F099 /* DictionaryEncoder.swift */,
 			);
 			path = "Dictionary Encoder";
+			sourceTree = "<group>";
+		};
+		A3E244B82551AC8B0061B663 /* Networkinng Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A3E244BE2551B8030061B663 /* Trending Repos */,
+				A3E244BB2551B5530061B663 /* Base */,
+			);
+			path = "Networkinng Layer";
+			sourceTree = "<group>";
+		};
+		A3E244BB2551B5530061B663 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A3E244B92551ACE90061B663 /* TargetType.swift */,
+				A3E244BC2551B5820061B663 /* BaseResponse.swift */,
+				A3E244C12551BAE90061B663 /* BaseAPI.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A3E244BE2551B8030061B663 /* Trending Repos */ = {
+			isa = PBXGroup;
+			children = (
+				A3E244BF2551B84A0061B663 /* TrendingReposNetworking.swift */,
+			);
+			path = "Trending Repos";
 			sourceTree = "<group>";
 		};
 		E22646881A3A51A363F48E97 /* Frameworks */ = {
@@ -330,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E244BA2551ACE90061B663 /* TargetType.swift in Sources */,
 				A3C1D3A52540E3CA0012F099 /* DictionaryEncoder.swift in Sources */,
 				A35C537B2540961700DFEBF5 /* TrendingReposModel.swift in Sources */,
 				A35C5359254082CF00DFEBF5 /* ViewController.swift in Sources */,
@@ -337,10 +374,13 @@
 				A3011EE72541E56B00793CE3 /* TrendingReposTVCell.swift in Sources */,
 				A35C5355254082CF00DFEBF5 /* AppDelegate.swift in Sources */,
 				A35C5379254095A800DFEBF5 /* TrendingReposPresenter.swift in Sources */,
+				A3E244C02551B84A0061B663 /* TrendingReposNetworking.swift in Sources */,
+				A3E244C22551BAE90061B663 /* BaseAPI.swift in Sources */,
 				A35C537025408D3900DFEBF5 /* IBase.swift in Sources */,
 				A35C53772540943600DFEBF5 /* extension.swift in Sources */,
 				A35C53732540923200DFEBF5 /* TrendingRepos.swift in Sources */,
 				A35C5357254082CF00DFEBF5 /* SceneDelegate.swift in Sources */,
+				A3E244BD2551B5820061B663 /* BaseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

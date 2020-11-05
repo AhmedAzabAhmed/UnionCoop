@@ -27,6 +27,4 @@ class TrendingReposPresenter: ITrendingReposPresenter {
     func onFail(message: String) {
         trendingRepoviewRef.errorMessage(msg: "")
     }
-    
-    
 }
